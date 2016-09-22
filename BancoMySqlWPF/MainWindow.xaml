@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button x:Name="BtnTestar" Content="Testar" HorizontalAlignment="Left" Margin="218,247,0,0" VerticalAlignment="Top" Width="113" Height="52" Click="BtnTestar_Click"/>
+        <Label x:Name="ID_" Content="ID:" HorizontalAlignment="Left" Margin="63,28,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="BtnAtualiza" Content="Atualizar" HorizontalAlignment="Left" Margin="358,53,0,0" VerticalAlignment="Top" Width="113" Height="52"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="63,119,0,0" VerticalAlignment="Top" Height="109" Width="408"/>
+        <TextBox x:Name="TxtBoxCodigo" HorizontalAlignment="Left" Height="23" Margin="125,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TxtBoxNome" HorizontalAlignment="Left" Height="23" Margin="125,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TxtBoxTelefone" HorizontalAlignment="Left" Height="23" Margin="125,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label_Copy" Content="Nome:" HorizontalAlignment="Left" Margin="63,54,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy1" Content="Telefone:" HorizontalAlignment="Left" Margin="63,82,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LblTesta" Content="Sem Conexão" HorizontalAlignment="Left" Margin="63,260,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.079,0.462" Foreground="Red"/>
+
     </Grid>
 </Window>

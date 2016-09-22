@@ -12,6 +12,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+/// <summary>
+using System.Data;
+using MySql.Data.MySqlClient; 
+    
+    /// </summary>
 
 namespace BancoMySqlWPF
 {
@@ -23,6 +28,14 @@ namespace BancoMySqlWPF
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void BtnTestar_Click(object sender, RoutedEventArgs e)
+        {
+            string cs = @"server=localhost;
+                         userid=root;
+                         password=;
+                         database=bacon";
         }
     }
 }
